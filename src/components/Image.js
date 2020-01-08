@@ -22,9 +22,9 @@ export default function Image(){
       <ImageCard 
       title = {image.title}
       date ={image.date}
-      explanation = {image.explanation}
-      hdurl = {image.hdurl}
       
+      hdurl = {image.hdurl}
+      explanation = {image.explanation}
       />
   )
 }

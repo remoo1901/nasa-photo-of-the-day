@@ -42,11 +42,13 @@
  max-height: 30%;
 margin-left: 665px;
 color: white;
+font-size: 15px;
 
 }
 
 body{
   background-color: black;
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 .date{
@@ -54,6 +56,6 @@ body{
 }
 
 .title{
-  color: orange;
-  text-shadow: 2px 1px brown;
+  color: WHITE;
+  font-size: 50px;
 }
