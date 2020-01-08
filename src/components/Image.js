@@ -24,7 +24,7 @@ export default function Image(){
       date ={image.date}
       explanation = {image.explanation}
       hdurl = {image.hdurl}
-      url = {image.url}
+      
       />
   )
 }

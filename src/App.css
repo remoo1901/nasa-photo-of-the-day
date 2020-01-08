@@ -31,3 +31,29 @@
     transform: rotate(360deg);
   }
 }
+
+.nasa{
+ max-width: 30%;
+ max-height: 30%;
+}
+
+.exp{
+  max-width: 30%;
+ max-height: 30%;
+margin-left: 665px;
+color: white;
+
+}
+
+body{
+  background-color: black;
+}
+
+.date{
+  color: yellow;
+}
+
+.title{
+  color: orange;
+  text-shadow: 2px 1px brown;
+}

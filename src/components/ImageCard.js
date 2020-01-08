@@ -4,11 +4,11 @@ import React from "react"
 export default function ImageCard(props){
     return (
         <div>
-          <h1>{props.title}</h1>
-          <h6>{props.date}</h6>
-          <h5>{props.explanation}</h5>
-        <img src={props.hdurl} alt="nasa1"/>
-          <img src={props.url} alt="nasa2" />
+          <h1 className="title">{props.title}</h1>
+          <h5 className="date">{props.date}</h5>
+          <h5 className="exp">{props.explanation}</h5>
+        <img className="nasa" src={props.hdurl} alt="nasa"/>
+        
          </div>
 
           )
