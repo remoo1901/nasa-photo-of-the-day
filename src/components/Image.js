@@ -11,10 +11,10 @@ export default function Image(){
   axios
        .get(`https://api.nasa.gov/planetary/apod?api_key=1LpQz1CUGafnlruGjK2cJ5LaTDSCF3WrP7PXygjg`)
        .then((res) => {
-           console.log(res.data)
-           setImage(res)
+           //console.log(res.data)
+           setImage(res.data)
         })
-       .catch( (err) => console.log("no image found, err"))
+       .catch( (err) => console.log("no image found", err))
 
   },[])
 
