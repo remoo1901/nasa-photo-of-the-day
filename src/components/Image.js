@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 import axios from "axios"
 import ImageCard from "./ImageCard"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Image(){
 
@@ -10,11 +11,11 @@ export default function Image(){
 
   axios
        .get(`https://api.nasa.gov/planetary/apod?api_key=1LpQz1CUGafnlruGjK2cJ5LaTDSCF3WrP7PXygjg`)
-       .then((res) => {
+       .then((response) => {
            //console.log(res.data)
-           setImage(res.data)
+           setImage(response.data)
         })
-       .catch( (err) => console.log("no image found", err))
+       .catch( (err) => console.log(err))
 
   },[])
 
@@ -22,9 +23,8 @@ export default function Image(){
       <ImageCard 
       title = {image.title}
       date ={image.date}
-      
-      hdurl = {image.hdurl}
+      url = {image.url}
       explanation = {image.explanation}
       />
   )
-}
+};
