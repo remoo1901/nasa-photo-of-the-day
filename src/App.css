@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -31,3 +32,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.nasa{
+ max-width: 30%;
+ max-height: 30%;
+}
+
+.exp{
+  max-width: 30%;
+ max-height: 30%;
+margin-left: 665px;
+color: white;
+font-size: 15px;
+
+}
+
+
+body{
+  background-color: black;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.date{
+  color: yellow;
+}
+
+.title{
+  color: WHITE;
+  font-size: 50px;
+}
+*/
+
+
